@@ -1,0 +1,123 @@
+import { Col, Row } from 'react-bootstrap';
+import React from 'react';
+import Header from './Components/Header';
+import Home from './Components/Home';
+import About from './Components/About';
+import Services from './Components/Services';
+import Contact from './Components/Contact';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import "./App.css";
+
+function App() {
+  return (
+    <Router>
+      <Row>
+        <Col sm={2}>
+          <Header />
+        </Col>
+        <Col sm={10}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </Col>
+      </Row>
+    </Router>
+  );
+}
+
+export default App;
+//////.h1{
+  height:100vh;
+  
+}
+.h2{
+  height:400px;
+  background-color: aquamarine;
+}
+.h3{
+  height:400px;
+  background-color: goldenrod;
+}
+.h4{
+  height:400px;
+  background-color: aquamarine;
+}
+
+
+https://react-admin-dashboard-seven-rho.vercel.app/
+
+
+
+
+
+
+
+
+.sidenav-header  {
+  text-align: center;
+  padding: 20px;
+}
+.sidenav-header  {
+  text-align: center;
+  padding: 20px;
+}
+.sidenav-header  {
+  text-align: center;
+  padding: 20px;
+}
+.sidenav-header  {
+  text-align: center;
+  padding: 20px;
+}
+.sidenav-header  {
+  text-align: center;
+  padding: 20px;
+}
+.sidenav-header  {
+  text-align: center;
+  padding: 20px;
+}
+.sidenav-header  {
+  text-align: center;
+  padding: 20px;
+}
+
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+
+function Sidenav() {
+  
+
+  return (
+   <div className='o1'>
+      <div className='b1'>
+        <img 
+          src='https://themewagon.github.io/pluto/images/layout_img/user_img.jpg' 
+          alt='User'/>
+        <h1>Dashboard</h1>
+      </div>
+      <ul>
+        <Link to='/Overview' ><li>Overview</li></Link>
+        <Link to='/Widgets' ><li>Widgets</li></Link>
+        <Link to='/Elements'><li>Elements</li></Link>
+        <Link to='/Tables' ><li>Tables</li></Link>
+        <Link to='/Apps' ><li>Apps</li></Link>
+        <Link to='/Charts' ><li>Charts</li></Link>
+      </ul>
+      <div className='j1'>
+        <Link to='/'><h3>Logout</h3></Link>
+      </div>
+    </div>
+  );
+}
+
+export default Sidenav;
+
+
+
+
+
+https://www.google.com/imgres?q=project%20on%20books%20using%20reactjs&imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FrePmjVVjv4A%2Fhq720.jpg%3Fsqp%3D-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD%26rs%3DAOn4CLD0_C6RqMey-YE9RWtPuwZCpfJlnw&imgrefurl=https%3A%2F%2Fm.youtube.com%2Fwatch%3Fv%3DrePmjVVjv4A&docid=e3LqpPqAKV1DCM&tbnid=ScfA-8So-923SM&vet=12ahUKEwjrrtec3qiJAxVAyjgGHSb0KZEQM3oECBYQAA..i&w=686&h=386&hcb=2&ved=2ahUKEwjrrtec3qiJAxVAyjgGHSb0KZEQM3oECBYQAA

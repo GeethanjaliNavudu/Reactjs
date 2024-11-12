@@ -1,38 +1,376 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Login {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: 'Arial', sans-serif;
+ 
+  
+ 
+  
+
+}
+.l1{
+  border: 5px solid;
+  height:500px;
+}
+
+.Login h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.Login input {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+.Login button {
+  width: 320px;
+  padding: 10px;
+  background-color: #4CAF50;
   color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.Login button:hover {
+  background-color:blueviolet;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.Login button:focus {
+  outline: none;
+}
+
+.Signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: 'Arial', sans-serif;
+}
+
+.Signup h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.Signup input {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+.Signup button {
+  width: 320px;
+  padding: 10px;
+  background-color:blueviolet;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Signup button:hover {
+  background-color: #45a049;
+}
+
+.Signup button:focus {
+  outline: none;
+}
+
+.h3{
+  text-align: center;
+  border: 3px solid black;
+
+}
+
+
+.j2{
+  display: flex;
+  gap:5%;
+}
+
+
+div {
+  text-align: start;
+ 
+ 
+}
+
+.m1 {
+  border: 1px solid #ccc;
+  border-radius: 8px; 
+  padding: 10px; 
+  margin: 10px;
+  background-color: #f9f9f9; 
+  height: 100px;
+  width:20%;
+  margin-top: 60px;
+  margin-left: 50px;
   }
-  to {
-    transform: rotate(360deg);
+ 
+ .sidenav {
+  width: 200px; 
+  height: 100vh; 
+  background-color: #2c3e50;
+  color: white; 
+  padding: 20px;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2); 
+  position: fixed; 
+  top:0;
+}
+
+.sidenav ul {
+  list-style-type: none; 
+  padding: 0; 
+}
+
+.sidenav li {
+  margin: 15px 0; 
+  padding-top: 40px;
+}
+
+.sidenav a, .sidenav .logout-button {
+  text-decoration: none; 
+  color: white; 
+  font-weight: 500; 
+  transition: background-color 0.3s, color 0.3s; 
+  padding: 10px 15px; 
+  border-radius: 4px; 
+  display: block; 
+}
+
+.sidenav a:hover, .sidenav .logout-button:hover {
+  background-color: #2980b9; 
+  color: white; 
+}
+
+.active-link {
+  background-color: #007bff; 
+  font-weight: bold; 
+  border-left: 4px solid #1abc9c; 
+  padding-left: 12px;
+}
+
+.logout-button {
+  background-color: #e74c3c;
+  border: none;
+  cursor: pointer; 
+  width: 100%; 
+}
+
+
+.logout-button:hover {
+  background-color: #c0392b; 
+} 
+  
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  padding: 20px;
+}
+
+.m99 {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: calc(25% - 20px); 
+  margin-bottom: 20px; 
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.m99 img {
+  max-width: 100%;
+  height: auto; 
+  border-radius: 8px;
+  transition: transform 0.3s ease; 
+}
+
+.m99 p {
+  margin: 5px 0;
+}
+
+.m99:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.m99:hover img {
+  transform: scale(1.05); 
+}
+.g1 {
+  margin-top: 400px;
+  margin-right: 50px;
+
+}
+
+@media (max-width: 767px) {
+  .container {
+    display: block;
+    padding: 10px;
+  }
+
+  .m99 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .m99 img {
+    width: 80%; 
+    margin: 0 auto 10px; 
+  }
+
+  .m99 p {
+    font-size: 16px; 
+  }
+
+  button.g1 {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 18px;
   }
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.m98 {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  margin-top: 10px; 
+  margin-left: 280px;
+
+}
+
+.m98:hover {
+  transform: translateY(-10px);
+}
+
+.m98 img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out; 
+}
+
+
+.m98:hover img {
+  transform: scale(1.05); 
+}
+
+
+.m98 p {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.m98 .product-id {
+  font-weight: bold;
+}
+
+.m98 .product-brand {
+  font-style: italic;
+}
+
+.m98 .product-price {
+  color: #28a745; 
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.m98 button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+
+.m98 button:hover {
+  background-color: #218838;
+}
+
+
+@media (max-width: 768px) {
+  .m98 {
+    padding: 15px;
+  }
+
+  .m98 p {
+    font-size: 1rem;
+  }
+
+  .m98 .product-price {
+    font-size: 1.2rem;
+  }
+}
+.P5{
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+body {
+  margin-top: 70px; 
+}
+
+
+
+
+  
+
+  
+
+
+
