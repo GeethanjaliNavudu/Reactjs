@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/GeethanjaliNavudu/Reactjs.git/static/css/main.fb402a74.css",
-    "main.js": "/GeethanjaliNavudu/Reactjs.git/static/js/main.f31c1baa.js",
-    "static/js/453.32151e8b.chunk.js": "/GeethanjaliNavudu/Reactjs.git/static/js/453.32151e8b.chunk.js",
-    "index.html": "/GeethanjaliNavudu/Reactjs.git/index.html",
-    "main.fb402a74.css.map": "/GeethanjaliNavudu/Reactjs.git/static/css/main.fb402a74.css.map",
-    "main.f31c1baa.js.map": "/GeethanjaliNavudu/Reactjs.git/static/js/main.f31c1baa.js.map",
-    "453.32151e8b.chunk.js.map": "/GeethanjaliNavudu/Reactjs.git/static/js/453.32151e8b.chunk.js.map"
+    "main.css": "/Reactjs/static/css/main.d7bbb27f.css",
+    "main.js": "/Reactjs/static/js/main.363ab416.js",
+    "static/js/453.32151e8b.chunk.js": "/Reactjs/static/js/453.32151e8b.chunk.js",
+    "index.html": "/Reactjs/index.html",
+    "main.d7bbb27f.css.map": "/Reactjs/static/css/main.d7bbb27f.css.map",
+    "main.363ab416.js.map": "/Reactjs/static/js/main.363ab416.js.map",
+    "453.32151e8b.chunk.js.map": "/Reactjs/static/js/453.32151e8b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb402a74.css",
-    "static/js/main.f31c1baa.js"
+    "static/css/main.d7bbb27f.css",
+    "static/js/main.363ab416.js"
   ]
 }
